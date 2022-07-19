@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_header{
+    width: 100%;
+    height: 100vh;
+}
+.header_logo{
+    font-size: 14px;
+}
+body{
+    color: #fff !important;
+    font-family: sans-serif;
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    margin: 0rem 1.8rem;
+}
+.Sign_out{
+    background-color: #e50914;
+    float: right;
+    font-size: 0.6rem;
+    font-weight: 400;
+    padding: 0.3rem 0.3rem;
+    color: aliceblue;
+}
+.red-btn{
+    font-size: 0.9rem;
+    padding: 0.2rem 0.8rem;
+    color: #fff;
+    border-radius: 0.3rem;
+    border: 0.3px solid black;
+    background-color: #e50914;
+}
+nav .ul {
+    display: flex;
+    align-items: center;
+}
+nav .ul select{
+    margin-right: 1.9rem;
+    padding: 0.3rem 0.6rem;
+    background-color: transparent;
+    color: aliceblue;
+    font-size: 0.9rem;
+}
+select option{
+    color: aliceblue;
+    background-color: rgb(107, 99, 99);
+}
+.btn{
+    background-color: #e50914;
+}
+.header_text-area{
+    text-align: center;
+    margin-top: 9rem;
+}
+.header_text-area span{
+    margin-bottom: 0.5em;
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+.header_text-area h1{
+    font-weight: 600;
+}
+.header_text-area h4{
+    font-size: 1.2rem;
+}
+.header_text-area button{
+    margin-top: 0.5rem;
+}
+header{
+    border-bottom: 0.5rem solid rgb(36, 34, 34);
+}
+.content-area{
+    padding: 50px 55px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.left-part .title{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.left-part .sub-title{
+    font-size: 1.25rem;
+}
+.video-box-card{
+    position: relative;
+}
+.video-card video{
+    width: 70%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.right-part{
+    position: relative;
+}
+.one,.two,.three,.toys,.faq,.free{
+    border-bottom: 0.5rem solid rgb(36, 34, 34);
+}
+.section-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px 45px;
+}
+.text-area h1{
+    font-size: 2.5rem;
+}
+.text-area p{
+    font-size: 1.3rem;
+}
+.three{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 45px;
+}
+.video-img{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.video-img img{
+    position: relative;
+}
+.our-story-card-animation{
+    position: absolute;
+    top: 9%;
+    left: 1%;
+    z-index: -1;
+    overflow: hidden;
+}
+.our-story-card-animation video{
+    width: 55%;
+}
+.toys{
+    display: flex;
+    align-items: center;
+    padding: 80px 45px;
+}
+.toys .text-area{
+    padding-left: 0rem;
+}
+.faaq{
+    display: flex;
+    justify-content: center;
+
+}
+.unorderd-list{
+    width: 70%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+.unorderd-list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+    padding: 0.5rem 0.9rem;
+    background: #303030;
+}
+.faq center h1{
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin: 2rem;
+}
+
+@media (max-width:700px) {
+    .content-area,.three{
+        flex-direction: column;
+    }
+    .left-part{
+        text-align: center;
+    }
+    .right-part{
+        text-align: center;
+    }
+    .section-two{
+        flex-direction:column-reverse;
+    }
+    .text-area{
+        text-align: center;
+    }
+    .toys{
+        flex-direction: column-reverse;
+    }
+    .toys .text-area{
+        padding-left: 0rem;
+    }
+}
+ol, ul {
+    padding-left: 0rem;
+}
+.ool li{
+    list-style-type: none;
+    background: #303030;
+    margin-bottom: 0.3rem;
+    padding: 0.8em 2.2em 0.8em 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add-outline-list{
+    font-size: 1.5rem;
+}
+.make-center{
+    margin-top: 2rem;
+}
+.Finish-Sign-Up{
+    display: flex;
+    align-items: center;
+    background-color: #e50914;
+    color: #fff;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.3rem;
+    margin-bottom: 2.5rem;
+}
+footer{
+    color: #737373;
+    font-size: 13px;
+}
+.last-footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.last-footer ul li{
+    list-style-type: none;
+}
+.last-footer ul li:hover{
+    border-bottom: 1px solid #737373;;
+}
+.selectt select{
+    padding: 0.5rem 0.5rem;
+    background-color: transparent;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+@media (max-width:485px){
+    .last-footer ul li{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 1450px), only screen and (min-width: 550px) and (max-width: 949px), only screen and (min-width: 950px) and (max-width: 1449px){
+    footer{
+        padding: 70px 45px;
+    }
+}
+
+@media only screen and (min-width: 1450px), only screen and (min-width: 950px) and (max-width: 1449px){
+    .ool{
+        margin: 2em auto;
+        width: 75%;
+    }
+}
+@media only screen and (min-width: 550px) and (max-width: 949px){
+    .ool{
+        margin: 1.5em auto;
+        width: 90%;
+    }
+}
+.ool{
+    margin: 1.25em auto;
+    max-width: 815px;
+}
+
+
+@media (max-width:600px){
+    .red-btn{
+        width: 5rem;
+        font-size: 0.8rem;
+    }
+    nav .ul select{
+        margin-right: 1.2rem;
+    }
+}
+@media (max-width:550px){
+    .content-area .left-part .title{
+        font-size: 2rem;
+    }
+    .content-area .left-part .sub-title{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:500px){
+    .content-area .left-part .sub-title{
+        font-size: 1rem;
+    }
+}
+@media (max-width:680px) {
+    .section-two .text-area h1{
+        font-size: 2.5rem;
+        margin-bottom: 2rem;    
+    }
+    .section-two .sec-twoo{
+        max-width: 65%;
+        height: 20vh;
+    }
+    .toys .img-fluid{
+        width: 10rem;
+        height: 100%;
+    }
+}
+@media (max-width:1000px){
+    .toys .img-fluid{
+        width: 95% !important;
+        height: 100%;
+    }
+}
+@media (max-width:549px){
+    .three .text-area h1,.section-two .text-area h1,.toys .text-area h1{
+        font-size: 2rem;
+    }
+    .three .text-area p,.section-two .text-area p,.toys .text-area p{
+        font-size: 1rem;
+    }
+    .faq center h1{
+        font-size: 1.5rem;
+    }
+    .faq center h1 {
+        margin: 2rem 0.1rem;
+    }
+    .toys {
+        padding: 30px 45px;
+    }
+}
+@media (max-width:405px){
+    .section-two .text-area h1{
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+    }
+}
